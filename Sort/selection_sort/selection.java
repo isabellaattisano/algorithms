@@ -1,6 +1,4 @@
 package Sort.selection_sort;
-import java.beans.Transient;
-import java.util.*;
 
 public class selection{
 
