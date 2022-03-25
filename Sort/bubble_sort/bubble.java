@@ -13,7 +13,10 @@ public class bubble {
             System.out.print(arr2[i] + " ");
         System.out.println();
     }
-
+    
+    //Sorts a given array by bubble sort
+    //Input: An array arr[0..n − 1] of orderable elements 
+    //Output: Array arr[0..n − 1] sorted in nondecreasing order
     static void bubbleSort(int arr[]){
         int x = arr[0], y = arr[0];
         for(int i =0; i<arr.length-1; i++)

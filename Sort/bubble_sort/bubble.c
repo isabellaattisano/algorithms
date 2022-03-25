@@ -1,5 +1,8 @@
 #include <stdio.h> 
 
+//Sorts a given array by bubble sort
+//Input: An array arr[0..n − 1] of orderable elements 
+//Output: Array arr[0..n − 1] sorted in nondecreasing order
 void bubbleSort(int *arr, int len){
     int x = arr[0], y=arr[0];
     for(int i =0; i<len-1; i++){

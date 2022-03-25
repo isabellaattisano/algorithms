@@ -1,6 +1,10 @@
 #include<stdio.h>
 
-void electionSort(int *arr, int len){
+//Sorts a given array by selection sort
+//Input: An array arr[0..n − 1] of orderable elements 
+//Output: Array arr[0..n − 1] sorted in nondecreasing order
+
+void selectionSort(int *arr, int len){
     int min, p;
     for(int i =0; i<len-1; i++){
         min = arr[i];

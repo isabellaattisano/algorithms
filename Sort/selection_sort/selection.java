@@ -15,7 +15,9 @@ public class selection{
         System.out.println();
 
     }
-
+    //Sorts a given array by selection sort
+    //Input: An array arr[0..n − 1] of orderable elements 
+    //Output: Array arr[0..n − 1] sorted in nondecreasing order
     public static void selectionSort(int arr[]){
         int min, p;
         for(int i =0; i<arr.length-1; i++){

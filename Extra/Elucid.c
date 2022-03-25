@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+// finds the gcd of two values, m and n 
 int euclid(int m, int n){
     int r;
     while(n!=0){

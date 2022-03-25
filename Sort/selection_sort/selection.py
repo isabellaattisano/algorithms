@@ -1,4 +1,7 @@
 
+#Sorts a given array by selection sort
+#Input: An array arr[0..n − 1] of orderable elements 
+#Output: Array arr[0..n − 1] sorted in nondecreasing order
 def selection_sort(x):
     for i in range(0, len(x)-1):
         min = x[i]

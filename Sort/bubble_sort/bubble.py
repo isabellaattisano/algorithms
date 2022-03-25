@@ -1,4 +1,7 @@
 
+#Sorts a given array by bubble sort
+#Input: An array arr[0..n − 1] of orderable elements 
+#Output: Array arr[0..n − 1] sorted in nondecreasing order
 def bubble_sort(x):
     for i in range(0, len(x)-1):
         for j in range(0, len(x)-1-i):
