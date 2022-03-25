@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void selectionSort(int *arr, int len){
+void electionSort(int *arr, int len){
     int min, p;
     for(int i =0; i<len-1; i++){
         min = arr[i];
