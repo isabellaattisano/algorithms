@@ -1,4 +1,4 @@
-package Sort.merge_sort;
+package merge_sort;
 
 public class merge {
     

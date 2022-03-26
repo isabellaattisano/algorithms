@@ -1,4 +1,4 @@
-package Sort.selection_sort;
+package selection_sort;
 
 public class selection{
 

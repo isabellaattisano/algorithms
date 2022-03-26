@@ -1,4 +1,4 @@
-package Sort.bubble_sort;
+package bubble_sort;
 
 public class bubble {
     public static void main(String[] args){
