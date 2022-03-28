@@ -1,7 +1,7 @@
 package merge_sort;
 import java.util.*;
 
-public class Merge {
+public class merge {
     public static void main(String[] args){
         List<Integer> ls = new ArrayList<Integer>();
         ls.add(6); ls.add(3); ls.add(2); ls.add(9);
@@ -18,11 +18,11 @@ public class Merge {
         List<Integer> C =  new ArrayList<>(); C = ls.subList((ls.size()/2), ls.size());
         merge_sort(B);
         merge_sort(C);
-        merge(B, C, ls);
+        merges(B, C, ls);
         }
     }
 
-    static void merge(List<Integer> B, List<Integer> C, List<Integer> ls){
+    static void merges(List<Integer> B, List<Integer> C, List<Integer> ls){
         int i =0, j=0, k=0;
 
         while(i<B.size() && j<C.size()){
